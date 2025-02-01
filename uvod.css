@@ -1,0 +1,73 @@
+header {
+    background-image: url("../images/koncert.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-wrapper {
+    width: 650px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 135px;
+}
+
+header h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: italic;
+    font-weight: 500;
+}
+
+header span {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 65px;
+    color: #FFD7AF;
+}
+
+header p {
+    margin-top: 0;
+    color: white;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.info-box {
+    width: 1220px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+
+
+/*ADAPTIVE - PHONES*/
+
+@media screen and (max-width: 640px) {
+    .header-wrapper {
+        width: 550px;
+        padding: 85px;
+    }
+
+    header h1 {
+        font-size: 30px;
+    }
+
+    header span {
+        font-size: 37px;
+    }
+
+    header p {
+        font-size: 20px;
+        line-height: 35px;
+        letter-spacing: 0;
+    }
+
+
+}
