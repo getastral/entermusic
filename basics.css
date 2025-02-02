@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'Sansation';
-    src: url('Sansation/Sansation-Regular.ttf') format('truetype');
+    src: url('Sansation-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Sansation';
-    src: URL("Sansation/Sansation-Bold.ttf') format('truetype');
+    src: URL("SSansation-Bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
